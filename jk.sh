@@ -63,3 +63,4 @@ cd ..
 rm -rf node_exporter.tar.gz $(tar tzf node_exporter.tar.gz | head -1 | cut -f1 -d"/")
 
 echo "Node Exporter installed and started successfully with service name jiankong.service."
+echo ${curl -4 ip.sb}
